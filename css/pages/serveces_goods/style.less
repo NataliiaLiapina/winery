@@ -1,0 +1,367 @@
+@font-family: 'Roboto',
+sans-serif;
+@font-family1: 'Roboto Slab',
+sans-serif;
+@font-size: 18px;
+@black-text: #000;
+@blue-color: #24b2d2;
+@light-grey: #f5f5f5;
+@green-color: #9eb310;
+@grey-text: #494949;
+@grey-color: #e6e4e4;
+
+html,
+body {
+    font-family: @font-family1;
+    min-width: 320px;
+    color: @black-text;
+}
+
+.main_menu {
+    font-family: @font-family;
+}
+
+a {
+    color: @black-text;
+}
+
+.navlower_wrap {
+    background-color: @light-grey;
+}
+
+.logo {
+    height: 75px;
+}
+
+.text-color_blue {
+    color: @blue-color;
+}
+
+.breadcrumbs-wrap {
+    background-image: linear-gradient(#e6e4e4, #fff);
+}
+
+.breadcrumbs {
+    padding: 8px 16px;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    display: inline;
+    font-family: @font-family;
+    padding: 8px;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+}
+
+.breadcrumbs li a:hover {
+    color: @blue-color;
+}
+
+.breadcrumbs-home {
+    color: @green-color;
+    font-size: 20px;
+}
+
+.breadcrumbs .hidden {
+    display: none;
+}
+
+.breadcrumbs-serv {
+    font-weight: 600;
+}
+
+.breadcrumbs-good {
+    font-weight: 600;
+}
+
+.show_breadcrumbs {
+    display: inline;
+}
+
+.filter-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: @grey-color;
+    .filter {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 10px;
+            width: 100%;
+            padding-right: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            background-color: @grey-color;
+            span {
+                padding: 15px;
+            }
+        }
+        button:hover,
+        button:focus {
+            background-color: #fff;
+            text-decoration: none;
+            color: @blue-color;
+        }
+    }
+}
+
+.show {
+    display: block;
+}
+
+.row>.column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 275px;
+    display: none;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.24);
+    img {
+        width: 100%;
+    }
+    p {
+        font-size: 11px;
+    }
+}
+
+.content .item_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 15px;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+
+.content:hover .item_cont {
+    opacity: 1;
+    padding-top: 8%
+}
+
+.more-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    width: 150px;
+    border: 0;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-right: 10px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: @green-color;
+    color: #fff;
+    text-decoration: none;
+}
+
+.more-btn:hover,
+.more-btn:visited,
+.more-btn:active,
+.more-btn:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.more-btn>span {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 700px;
+    margin: 20px auto;
+    img {
+        width: 100%;
+    }
+    h4 {
+        text-align: center;
+    }
+    p {
+        text-indent: 30px;
+    }
+    div {
+        position: relative;
+        left: 70%;
+        width: 170px;
+        .icon-soc_popup-f,
+        .icon-soc_popup-t {
+            margin: 7px;
+            font-size: 24px;
+            text-decoration: none;
+            width: 24px;
+        }
+        .icon-soc_popup-f {
+            background-color: #29488b;
+            color: #fff;
+            border-radius: 50%;
+            padding-left: 4px;
+        }
+        .icon-soc_popup-t {
+            color: #33abe0;
+        }
+    }
+}
+
+footer {
+    background-color: #2d2e2a;
+}
+
+.footer_row_wrap {
+    margin-top: 85px;
+    color: #f3f3f3;
+}
+
+.footer-logo {
+    color: @blue-color;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.footer-title {
+    font-weight: 700;
+}
+
+.icon {
+    font-size: 29px;
+    color: #494a45;
+}
+
+.footer-col_wrap a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-text_tel {
+    margin-left: 5px;
+}
+
+.footer-text_tel1 {
+    margin-left: 34px;
+}
+
+.footer-text_email {
+    margin-left: 6px;
+}
+
+.footer-text_skype {
+    margin-left: 10px
+}
+
+.footer-text_adress {
+    margin-left: 34px;
+}
+
+.footer-col_wrap .icon-soc_f,
+.footer-col_wrap .icon-soc_t {
+    font-size: 29px;
+    color: @green-color;
+}
+
+.icon-soc_f {
+    margin-left: 34px;
+}
+
+.icon-soc_t {
+    margin-left: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0 12px;
+    background-color: #333430;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-group input {
+    width: 345px;
+    height: 40px;
+}
+
+.form-group textarea {
+    width: 465px;
+    height: 150px;
+}
+
+.article-btn-mixin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    width: 215px;
+    border: 0;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 15px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    float: right;
+    color: #fff;
+}
+
+.form-btn {
+    .article-btn-mixin;
+    background-color: @green-color;
+}
+
+.form-btn:active {
+    box-shadow: none;
+}
+
+.form-btn>span {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.dev {
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 180px;
+    color: #fff;
+}

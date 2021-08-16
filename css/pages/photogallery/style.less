@@ -1,0 +1,265 @@
+@font-family: 'Roboto',
+sans-serif;
+@font-family1: 'Roboto Slab',
+sans-serif;
+@font-size: 18px;
+@black-text: #000;
+@blue-color: #24b2d2;
+@light-grey: #f5f5f5;
+@green-color: #9eb310;
+@grey-text: #494949;
+@grey-color: #e6e4e4;
+
+html,
+body {
+    font-family: @font-family1;
+    min-width: 320px;
+    color: @black-text;
+}
+
+.main_menu {
+    font-family: @font-family;
+}
+
+a {
+    color: @black-text;
+}
+
+.navlower_wrap {
+    background-color: @light-grey;
+}
+
+.logo {
+    height: 75px;
+}
+
+.text-color_blue {
+    color: @blue-color;
+}
+
+.breadcrumbs-wrap {
+    background-image: linear-gradient(#e6e4e4, #fff);
+}
+
+.breadcrumbs {
+    padding: 8px 16px;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    display: inline;
+    font-family: @font-family;
+    padding: 8px;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+}
+
+.breadcrumbs li a:hover {
+    color: @blue-color;
+}
+
+.breadcrumbs-home {
+    color: @green-color;
+    font-size: 20px;
+}
+
+.photogallery-wrap {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.photogallery-video {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../img/photogallery/2013-10-25-625.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    span {
+        font-size: 17px;
+        color: #fff;
+        background-color: red;
+        width: 50px;
+        height: 27px;
+        border-radius: 6px;
+        padding-left: 17px;
+        padding-top: 5px;
+        top: 50%;
+        left: 48%;
+    }
+}
+
+.photogallery-row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.photogallery-column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.photogallery-column img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.photogallery-img {
+    position: relative;
+    margin-top: 8px;
+}
+
+.item_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 15px;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: #fff;
+}
+
+.photogallery-img:hover .item_cont {
+    opacity: 1;
+}
+
+footer {
+    background-color: #2d2e2a;
+}
+
+.footer_row_wrap {
+    margin-top: 85px;
+    color: #f3f3f3;
+}
+
+.footer-logo {
+    color: @blue-color;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.footer-title {
+    font-weight: 700;
+}
+
+.icon {
+    font-size: 29px;
+    color: #494a45;
+}
+
+.footer-col_wrap a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-text_tel {
+    margin-left: 5px;
+}
+
+.footer-text_tel1 {
+    margin-left: 34px;
+}
+
+.footer-text_email {
+    margin-left: 6px;
+}
+
+.footer-text_skype {
+    margin-left: 10px
+}
+
+.footer-text_adress {
+    margin-left: 34px;
+}
+
+.footer-col_wrap .icon-soc_f,
+.footer-col_wrap .icon-soc_t {
+    font-size: 29px;
+    color: @green-color;
+}
+
+.icon-soc_f {
+    margin-left: 34px;
+}
+
+.icon-soc_t {
+    margin-left: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0 12px;
+    background-color: #333430;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-group input {
+    width: 345px;
+    height: 40px;
+}
+
+.form-group textarea {
+    width: 465px;
+    height: 150px;
+}
+
+.article-btn-mixin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    width: 215px;
+    border: 0;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 15px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    float: right;
+    color: #fff;
+}
+
+.form-btn {
+    .article-btn-mixin;
+    background-color: @green-color;
+}
+
+.form-btn:active {
+    box-shadow: none;
+}
+
+.form-btn>span {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.dev {
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 180px;
+    color: #fff;
+}

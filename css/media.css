@@ -1,0 +1,504 @@
+    @media screen and (max-width: 1366px) {}
+
+    @media screen and (max-width: 1280px) {}
+
+    @media screen and (max-width: 1024px) {
+        .nav>li>a {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        .navbar-right {
+            margin-right: 0px;
+        }
+        .news-btn:hover,
+        .serv-good-btn:hover,
+        .knowledgebase-btn:hover,
+        .photogallery-btn:hover,
+        .form-btn:hover {
+            box-shadow: none;
+        }
+        .serv-good_row_wrap {
+            width: 100%;
+        }
+        .serv-good-col_wrap {
+            width: 100%;
+        }
+        .serv-good-title {
+            font-size: 18px;
+        }
+        .serv-good-text {
+            font-size: 12px;
+        }
+        .serv-good-button:hover {
+            background-color: #24b2d2;
+            color: #fff;
+        }
+        .photogallery-col_wrap {
+            width: 100%;
+        }
+        .photogallery_row_wrap {
+            width: 100%;
+        }
+        .photogallery-title {
+            font-size: 16px;
+        }
+        .form-group textarea {
+            width: 395px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .jumbotron {
+            height: 455px;
+        }
+        .jumbotron .title {
+            margin-left: 30px;
+            margin-top: 70px;
+        }
+        .jumbotron .title_text {
+            margin-left: 100px;
+        }
+        .news_row_wrap {
+            width: 100%;
+        }
+        .title-text_news {
+            margin-top: 50px;
+        }
+        .title-text_services-goods {
+            margin-top: 50px;
+        }
+        .photogallery-col_wrap img {
+            margin-bottom: 25px;
+        }
+        .title-text_photogallery {
+            margin-top: 50px;
+        }
+        .form-group textarea {
+            width: 380px;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .nav>li>a {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .jumbotron {
+            height: 430px;
+        }
+        .jumbotron .title {
+            margin-top: 70px;
+        }
+        .footer-col_wrap p {
+            font-size: 13px;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 275px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .navbar {
+            min-height: 30px;
+        }
+        .container-fluid {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            font-size: 12px;
+            line-height: 14px;
+            padding-left: 4px;
+        }
+        .navbar-inverse .navbar-right>li>a {
+            font-size: 11px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .jumbotron {
+            height: 360px;
+        }
+        .jumbotron .title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .jumbotron .title_text {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .title-text_news,
+        .title-text_photogallery {
+            margin-top: 0px;
+            margin-bottom: 15px;
+            font-size: 40px;
+        }
+        .news-col_wrap {
+            width: 100%;
+        }
+        .news-col_wrap img {
+            width: 160px;
+        }
+        .time {
+            font-size: 10px;
+            line-height: 10px;
+        }
+        .article-title {
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 17px;
+        }
+        .article-text {
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .title-text_services-goods {
+            margin-top: 0px;
+            margin-bottom: 15px;
+            font-size: 40px;
+        }
+        .knowledgebase {
+            background-size: 425px;
+        }
+        .title-text_knowledgebase {
+            margin-bottom: 15px;
+            font-size: 40px;
+        }
+        .text_knowledgebase {
+            font-size: 18px;
+            line-height: 20px;
+            margin-left: 40px;
+        }
+        .knowledgebase_row_wrap {
+            margin-left: 40px;
+            width: 420px;
+        }
+        .photogallery-title {
+            font-size: 15px;
+        }
+        .footer_row_wrap {
+            margin-top: 30px;
+        }
+        .footer-logo,
+        .footer-title {
+            font-size: 14px;
+        }
+        .icon {
+            font-size: 26px;
+        }
+        .footer-col_wrap p {
+            font-size: 12px;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 200px;
+            font-size: 12px;
+        }
+        .form-group input {
+            height: 23px;
+        }
+        .form-group textarea {
+            height: 87px;
+        }
+        .form-btn {
+            font-size: 12px;
+            width: 150px;
+            height: 25px;
+            margin-bottom: 30px;
+            padding-top: 2px;
+        }
+        .dev {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .navbar-inverse .nav>li>a {
+            padding-left: 1px;
+        }
+        .navbar-inverse .navbar-right>li>a {
+            font-size: 10px;
+            font-weight: 600;
+        }
+        .news-col_wrap {
+            width: 225px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .mob_nav {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .main_menu {
+            display: none;
+        }
+        .mob_nav {
+            position: relative;
+        }
+        .mob-head {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .mob-head_contact {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .mob-head_contact .glyphicon-phone {
+            font-size: 12px;
+        }
+        .mob-head_contact p a {
+            font-size: 11px;
+        }
+        .logo {
+            height: 45px;
+        }
+        .text-color_blue {
+            font-size: 12px;
+        }
+        .navbar-inverse .navbar-toggle {
+            border-color: #fff;
+        }
+        .navbar-inverse .navbar-toggle:hover,
+        .navbar-inverse .navbar-toggle:focus {
+            background-color: #fff;
+        }
+        .navbar-inverse .navbar-toggle .icon-bar {
+            background-color: #494949;
+        }
+        .left-menu {
+            position: absolute;
+            display: none;
+            z-index: 100;
+            top: 0;
+            background-color: #000;
+            width: 200px;
+        }
+
+        @-webkit-keyframes slideInLeft {
+            from {
+                -webkit-transform: translate3d(-100%, 0, 0);
+                transform: translate3d(-100%, 0, 0);
+                visibility: visible;
+            }
+
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                -webkit-transform: translate3d(-100%, 0, 0);
+                transform: translate3d(-100%, 0, 0);
+                visibility: visible;
+            }
+
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+        .mob_nav-show {
+            display: block;
+            -webkit-animation-name: slideInLeft;
+            animation-name: slideInLeft;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        .left-menu ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .left-menu ul li {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        .left-menu ul li:hover {
+            background-color: #f1f1f1;
+        }
+        .left-menu ul li:hover ul {
+            background-color: #f1f1f1;
+        }
+        .left-menu ul li:hover a {
+            color: #000;
+            background-color: #f1f1f1;
+        }
+        .left-menu ul li a {
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            line-height: 18px;
+            text-decoration: none;
+        }
+        .left-menu .mob-form_wrap:hover {
+            background-color: #000;
+        }
+        .dropdown-mob {
+            background-color: #000;
+        }
+        .left-menu .mob-form_wrap {
+            padding-top: 0;
+        }
+        .mob-search {
+            margin: 0;
+            padding: 0;
+        }
+        .mob-search .input-group .mob-form-control {
+            border-radius: 4px;
+            border: none;
+            background-color: #000;
+            color: #fff;
+            padding: 0 4px;
+        }
+        .mob-form_btn {
+            background-color: #000;
+            border: none;
+            color: #fff;
+        }
+        .mob-form_btn:hover {
+            color: #000;
+        }
+        .mob-form_btn i {
+            font-size: 16px;
+        }
+        .jumbotron {
+            height: 400px;
+            background-size: cover;
+        }
+        .jumbotron .title {
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-bottom: 3px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .jumbotron .title .title1 {
+            margin-left: 30px;
+        }
+        .jumbotron .title_text {
+            font-size: 12px;
+            margin-left: 70px;
+        }
+        .title-text_news,
+        .title-text_photogallery,
+        .title-text_knowledgebase {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        .news-col_wrap {
+            width: 100%;
+        }
+        .news-col_wrap img {
+            width: 195px;
+        }
+        .article-title {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .article-text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+        .news-btn,
+        .serv-good-btn {
+            float: none;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .title-text_services-goods {
+            margin-top: 10px;
+            font-size: 29px;
+            line-height: 30px;
+        }
+        .serv-good-col_wrap {
+            margin-bottom: 10px;
+        }
+        .serv-good-title {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        .serv-good-text {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .knowledgebase {
+            background-position: 90% 25%;
+        }
+        .title-text_knowledgebase {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .text_knowledgebase {
+            font-size: 14px;
+            line-height: 18px;
+            margin-left: 0px;
+            width: 100%;
+        }
+        .knowledgebase_row_wrap {
+            margin-left: 0px;
+            margin-bottom: 25px;
+            width: 100%;
+        }
+        .knowledgebase_row_wrap p {
+            line-height: 16px;
+            margin-bottom: 20px;
+        }
+        .knowledgebase_row_wrap h4 {
+            font-size: 17px;
+        }
+        .knowledgebase-btn {
+            right: 37px;
+        }
+        .title-text_photogallery {
+            margin-top: 10px;
+        }
+        .photogallery-btn {
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer-logo,
+        .fb_title {
+            margin-top: 5px;
+            text-align: center;
+        }
+        .form-group textarea {
+            width: 265px;
+        }
+        .form-btn {
+            float: none;
+            margin-left: 115px;
+        }
+        .dev {
+            margin-bottom: 15px;
+            margin-right: 50px;
+            color: #fff;
+        }
+    }
+
+    @media screen and (max-width: 537px) {}
+
+    @media screen and (max-width: 320px) {}
+
+    @media (min-resolution: 1.5dppx) {}

@@ -1,0 +1,10 @@
+/*
+Theme Name: UZUM FERMER
+Author: Zhukov & Liapina
+*/
+ 
+.navbar-inverse .navbar-nav > .current-menu-item > a,
+.navbar-inverse .navbar-nav > .current-menu-item > a:hover{
+	color: #000;
+	background-color: #f5f5f5;
+}
